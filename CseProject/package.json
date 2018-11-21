@@ -1,7 +1,7 @@
 {
-  "name": "cseproject",
+  "name": "firstproject",
   "version": "1.0.0",
-  "description": "A Vue.js project",
+  "description": "first project",
   "author": "kdk_kang_c <kdk_kang_c@naver.com>",
   "private": true,
   "scripts": {
@@ -11,6 +11,7 @@
   },
   "dependencies": {
     "vue": "^2.5.2",
+    "vue-material": "^1.0.0-beta-10.2",
     "vue-router": "^3.0.1"
   },
   "devDependencies": {

@@ -1,28 +1,29 @@
 <template>
   <div id="app">
-    <!-- <img src="./assets/logo.png"> -->
-    <!-- <router-view/> -->
     <main-header></main-header>
-    <board></board>
-    <articles></articles>
+    <navbar></navbar>
+    <!-- <router-view/> -->
+    <board-area></board-area>
+    <article-area></article-area>
     <main-footer></main-footer>
-    
   </div>
 </template>
 
 <script>
 import mainHeader from '@/components/shared/mainHeader'
 import mainFooter from '@/components/shared/mainFooter'
-import Board from '@/components/server/Board'
-import Articles from '@/components/server/Articles'
+import BoardArea from '@/components/server/BoardArea'
+import ArticleArea from '@/components/server/ArticleArea'
+import Navbar from '@/components/shared/Navbar'
 
 export default {
   name: 'App',
   components:{
     'main-header' : mainHeader,
     'main-footer' : mainFooter,
-    'board' : Board,
-    'articles':Articles
+    'board-area' : BoardArea,
+    'article-area':ArticleArea,
+    'Navbar':Navbar
   }
 }
 </script>
@@ -39,6 +40,7 @@ ul {
     margin: 0;
     padding: 0;
 }
+
 a {
     text-decoration: none;
     color: #000000;

@@ -2,9 +2,9 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import mainHeader from '@/components/shared/mainHeader'
 import mainFooter from '@/components/shared/mainFooter'
-import Board from '@/components/server/Board'
-import Articles from '@/components/server/Articles'
-
+import BoardArea from '@/components/server/BoardArea'
+import ArticleArea from '@/components/server/ArticleArea'
+import Navbar from '@/components/shared/Navbar'
 Vue.use(Router)
 
 export default new Router({
@@ -21,14 +21,19 @@ export default new Router({
     },
     {
       path: '/',
-      name: 'Board',
-      component: Board
+      name: 'BoardArea',
+      component: BoardArea
     },
     
     {
       path: '/',
-      name: 'Articles',
-      component: Articles
+      name: 'ArticleArea',
+      component: ArticleArea
+    },
+    {
+      path: '/',
+      name: 'Navbar',
+      component: Navbar
     },
   ]
 })

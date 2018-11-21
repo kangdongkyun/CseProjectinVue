@@ -74,6 +74,7 @@
     #recent_board .board_area ul li{
         padding: 5px 0;
         font-size: 1.1em;
+
     }
     #recent_board .board_area ul li a:hover{
         color:navy;
