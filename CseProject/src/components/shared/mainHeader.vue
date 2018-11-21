@@ -30,6 +30,12 @@
 </script>
 
 <style scoped>
+@media (max-width:799px){
+    #header{
+        display: none;
+    }
+}
+@media only screen and (min-width : 1024px){
     #gnb {
         width: 80%;
         margin: 0 auto;
@@ -57,4 +63,5 @@
     #gnb .bottom .content p{
         font-size: 1.1em;
     }
+}
 </style>

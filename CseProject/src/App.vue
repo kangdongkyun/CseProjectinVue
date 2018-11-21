@@ -1,5 +1,6 @@
 <template>
   <div id="app">
+    <mobile-view></mobile-view>
     <main-header></main-header>
     <navbar></navbar>
     <!-- <router-view/> -->
@@ -15,6 +16,7 @@ import mainFooter from '@/components/shared/mainFooter'
 import BoardArea from '@/components/server/BoardArea'
 import ArticleArea from '@/components/server/ArticleArea'
 import Navbar from '@/components/shared/Navbar'
+import mobileView from '@/components/shared/mobileView'
 
 export default {
   name: 'App',
@@ -23,7 +25,8 @@ export default {
     'main-footer' : mainFooter,
     'board-area' : BoardArea,
     'article-area':ArticleArea,
-    'Navbar':Navbar
+    'navbar':Navbar,
+    'mobile-view':mobileView
   }
 }
 </script>

@@ -29,6 +29,12 @@
 </script>
 
 <style scoped>
+@media (max-width:799px){
+    #nav{
+        display: none;
+    }
+}
+@media only screen and (min-width : 1024px){
     #nav ul {
         display: flex;
         width: 80%;
@@ -46,4 +52,5 @@
     #nav ul li:hover a{
         color: #ffffff;
     }
+}
 </style>

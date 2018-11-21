@@ -37,6 +37,13 @@
 </script>
 
 <style scoped>
+
+@media (max-width:799px){
+    #footer{
+        display: none;
+    }
+}
+@media only screen and (min-width : 1024px){
     #footer{
         width:100%;
         background-color: #f2f4f7;
@@ -66,5 +73,5 @@
     #footer #footer-copyrights .footer-img{
         flex :3;
     }
-
+}
 </style>
