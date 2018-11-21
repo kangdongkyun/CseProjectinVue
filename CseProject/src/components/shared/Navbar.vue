@@ -44,6 +44,11 @@
         flex : 1;
         text-align: center;
         padding: 10px 0;
+        
+    }
+    #nav ul li a{
+        color:black;
+        text-decoration: none;
     }
     #nav ul li:hover{
         background-color: navy;

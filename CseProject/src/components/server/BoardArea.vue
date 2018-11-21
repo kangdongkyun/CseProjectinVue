@@ -37,6 +37,12 @@
 </script>
 
 <style scoped>
+@media (max-width:799px){
+    #content{
+        display: none;
+    }
+}
+@media only screen and (min-width : 1024px){
 #recent_board .board_area{
         background-color: #fff;
         border:1px solid #d6d6d6;
@@ -72,12 +78,18 @@
         padding-left:20px;
     }
     #recent_board .board_area ul li{
-        padding: 5px 0;
+        padding: 6px 0;
         font-size: 1.1em;
 
+    }
+    #recent_board .board_area ul li a{
+        
+        color:black;
+        text-decoration: none;
     }
     #recent_board .board_area ul li a:hover{
         color:navy;
         font-size: 1.2em;
     }
+}
 </style>

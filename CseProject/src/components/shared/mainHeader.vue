@@ -11,7 +11,7 @@
                 <div class="bottom">
                     <div class="logo">
                         <!-- <a href="#"><img src="../assets/O_cse_logo.png" alt=""></a> -->
-                        <router-link to="/"><img src="../../assets/O_cse_logo.png" alt=""></router-link>
+                        <router-link to="/"><img src="@/assets/O_cse_logo.png" alt=""></router-link>
                     </div>
                     <div class="content">
                         <p>IT 교육의 글로벌 메카!</p>

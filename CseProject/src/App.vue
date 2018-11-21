@@ -3,6 +3,7 @@
     <mobile-view></mobile-view>
     <main-header></main-header>
     <navbar></navbar>
+    <image-slider></image-slider>
     <!-- <router-view/> -->
     <board-area></board-area>
     <article-area></article-area>
@@ -17,7 +18,7 @@ import BoardArea from '@/components/server/BoardArea'
 import ArticleArea from '@/components/server/ArticleArea'
 import Navbar from '@/components/shared/Navbar'
 import mobileView from '@/components/shared/mobileView'
-
+import imageSlider from '@/components/shared/imageSlider'
 export default {
   name: 'App',
   components:{
@@ -26,8 +27,10 @@ export default {
     'board-area' : BoardArea,
     'article-area':ArticleArea,
     'navbar':Navbar,
-    'mobile-view':mobileView
-  }
+    'mobile-view':mobileView,
+    'image-slider':imageSlider
+  },
+
 }
 </script>
 

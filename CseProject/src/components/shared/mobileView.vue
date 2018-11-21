@@ -8,7 +8,7 @@
               <md-icon>menu</md-icon>
             </md-button>
 
-            <span class="md-title">My Title</span>
+            <span class="md-title">한국기술교육대학교 <br>- 컴퓨터공학부</span>
           </div>
 
           <div class="md-toolbar-section-end">
@@ -70,6 +70,9 @@
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error quibusdam, non molestias et! Earum magnam, similique, quo recusandae placeat dicta asperiores modi sint ea repudiandae maxime? Quae non explicabo, neque.</p>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error quibusdam, non molestias et! Earum magnam, similique, quo recusandae placeat dicta asperiores modi sint ea repudiandae maxime? Quae non explicabo, neque.</p>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error quibusdam, non molestias et! Earum magnam, similique, quo recusandae placeat dicta asperiores modi sint ea repudiandae maxime? Quae non explicabo, neque.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error quibusdam, non molestias et! Earum magnam, similique, quo recusandae placeat dicta asperiores modi sint ea repudiandae maxime? Quae non explicabo, neque.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error quibusdam, non molestias et! Earum magnam, similique, quo recusandae placeat dicta asperiores modi sint ea repudiandae maxime? Quae non explicabo, neque.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error quibusdam, non molestias et! Earum magnam, similique, quo recusandae placeat dicta asperiores modi sint ea repudiandae maxime? Quae non explicabo, neque.</p>
       </md-app-content>
     </md-app>
   </div>
@@ -80,7 +83,7 @@
 export default {
   name: 'LastRowFixed',
   data(){
-        return{
+      return{
           menuVisible: false
     }
   }
@@ -90,7 +93,9 @@ export default {
 <style lang="scss" scoped>
 @media (max-width:799px){
   .md-app {
-    max-height: 400px;
+    position: fixed;
+    z-index: 1;
+    max-height: 80%;
     border: 1px solid rgba(#000, .12);
   }
 
