@@ -9,6 +9,7 @@ import ArticleArea from '@/components/server/ArticleArea'
 import Navbar from '@/components/shared/Navbar'
 import imageSlider from '@/components/shared/imageSlider'
 import VueMaterial from 'vue-material'
+import Login from '@/components/shared/Login'
 
 Vue.use(VueMaterial)
 Vue.use(Router)
@@ -41,6 +42,11 @@ export default new Router({
       path: '/',
       name: 'Navbar',
       component: Navbar
+    },
+    {
+      path: '/login',
+      name: 'Login',
+      component: Login
     },
   ]
 })

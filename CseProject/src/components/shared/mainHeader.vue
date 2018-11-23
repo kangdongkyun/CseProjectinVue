@@ -5,7 +5,9 @@
                 <div class="top">
                     <ul>
                         <li><a href="#">Login</a></li>
+                        <!-- <li><router-link to="/login">Login</router-link></li> -->
                         <li><a href="#">SignUp</a></li>
+                        
                     </ul>
                 </div>
                 <div class="bottom">

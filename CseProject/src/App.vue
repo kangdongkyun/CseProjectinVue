@@ -1,10 +1,13 @@
 <template>
   <div id="app">
+    <router-view/>
+    <!-- mobile -->
     <mobile-view></mobile-view>
-    <main-header></main-header>
+    <!-- desktop -->
+    <!-- <main-header></main-header> -->
     <navbar></navbar>
     <image-slider></image-slider>
-    <!-- <router-view/> -->
+    
     <board-area></board-area>
     <article-area></article-area>
     <main-footer></main-footer>
@@ -19,6 +22,7 @@ import ArticleArea from '@/components/server/ArticleArea'
 import Navbar from '@/components/shared/Navbar'
 import mobileView from '@/components/shared/mobileView'
 import imageSlider from '@/components/shared/imageSlider'
+
 export default {
   name: 'App',
   components:{

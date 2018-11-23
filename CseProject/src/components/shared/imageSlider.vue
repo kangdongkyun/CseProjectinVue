@@ -75,6 +75,11 @@
 </script>
 
 <style scoped>
+/* @media (max-width:799px){
+    #slide-tabs{
+        display: none;
+    }
+} */
 @media only screen and (min-width : 1024px){
     
     #slide-tabs .panel{
